@@ -1,6 +1,17 @@
 import os
 import sys
+import logging
+from telegram import Update
+from telegram.ext import Application, CommandHandler, ContextTypes
 
+# Настройка логирования
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+logger = logging.getLogger(__name__)
+
+# Загрузка токена
 BOT_TOKEN ="7956580714:AAEVe-I_oPBLfoSuCfc90oC0HLGA0O6AUWY"
 
 if not BOT_TOKEN:
