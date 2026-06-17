@@ -1,7 +1,7 @@
 import os
 import sys
 
-BOT_TOKEN = os.getenv("7956580714:AAEVe-I_oPBLfoSuCfc90oC0HLGA0O6AUWY")
+BOT_TOKEN ="7956580714:AAEVe-I_oPBLfoSuCfc90oC0HLGA0O6AUWY"
 
 if not BOT_TOKEN:
     print("КРИТИЧЕСКАЯ ОШИБКА: Переменная среды BOT_TOKEN не найдена!")
